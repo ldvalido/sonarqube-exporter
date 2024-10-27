@@ -781,8 +781,6 @@ The files under `dashboards/*.json` contain a grafana dashboards described below
 
 The `Sonarqube Exporter` dashboard presents all metrics in detail and is meant for finer-grained analytics. See an image of the dasboard with data below.
 
-![overview!](https://github.com/return200-ok/sonarqube_prometheus_exporter/blob/main/assets/sonarqube_exporter_dashboard.png?raw=true)
-
 
 # Contribute!
 
