@@ -7,7 +7,7 @@ services:
     ports:
       - 8198:8198
     environment:
-      - SONARQUBE_SERVER=http://sonarqube:9000
+      - SONARQUBE_SERVER=http://10.0.5.14:9000
       - SONARQUBE_TOKEN=squ_fb51c0dfa34ce606afe54e4eb54796a4bcc6ee53
     
     volumes:
