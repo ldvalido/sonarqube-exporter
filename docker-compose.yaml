@@ -54,6 +54,7 @@ services:
       - sonarqube_extensions:/opt/sonarqube/extensions
       - sonarqube_logs:/opt/sonarqube/logs
       - sonarqube_temp:/opt/sonarqube/temp
+      - ./sonar/sysctl.conf:/etc/sysctl.conf
     networks:
       sonarqube_network:
           ipv4_address: 10.0.5.14
