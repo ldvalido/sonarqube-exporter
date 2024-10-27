@@ -31,7 +31,7 @@ services:
   prometheus:
     image: "prom/prometheus"
     volumes:
-      - "./config/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml"
+      - "./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml"
       #- "./config/prometheus.rules:/etc/prometheus/prometheus.rules.yml"
     ports:
       - "9090:9090"
